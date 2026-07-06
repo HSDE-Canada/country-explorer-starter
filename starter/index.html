@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Country Explorer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="site-header">
+      <div class="logo">🌎</div>
+      <h1>Country Explorer</h1>
+      <nav><a>Home</a><a>Explore</a><a>About</a></nav>
+    </header>
+
+    <section class="hero-section">
+      <div class="hero-content">
+        <h2>Discover the World 🌎</h2>
+        <p>Search for a country and explore key details about it.</p>
+        <div class="search-box">
+          <input id="search-input" placeholder="Enter a country name" />
+          <button id="search-button">Search</button>
+        </div>
+        <p class="search-error" id="search-error"></p>
+      </div>
+      <div class="hero-art">🏛️</div>
+    </section>
+
+    <section class="country-card">
+      <div>
+        <h2 id="country-name">Canada</h2>
+        <div class="stats-grid">
+          <div><span>Capital</span><strong id="country-capital">Ottawa</strong></div>
+          <div><span>Region</span><strong id="country-region">Americas</strong></div>
+          <div><span>Population</span><strong id="country-population">38,000,000</strong></div>
+          <div><span>Currency</span><strong id="country-currency">Canadian dollar ($)</strong></div>
+        </div>
+      </div>
+      <img id="featured-img" src="" alt="Country landmark" />
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
